@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		.border {
+			background-color: black; 
+			width: 100%; 
+			height: 10%;  
+		}
+		.top {
+			position: fixed;
+			top: 0;
+		}
+		.bottom {
+			position: fixed; 
+			bottom: 0; 
+		}
+		body {
+			margin: 0;
+			padding: 0;
+			background: #000000;
+			color: #ffffff;
+			font-family: Arial, sans-serif;
+		}
+		#video-background {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			z-index: -1;
+		}
+		#video-foreground {
+			width: 100%;
+			height: 100%;
+			background: #000000;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1000;
+		}
+		#video-foreground iframe {
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			margin-top: 3%;
+			padding: 50px;
+			text-align: center;
+		}
+		@font-face {
+  			font-family: 'Gypsy Curse';
+  			src: url('./RedSmoke.otf');
+  			font-weight: normal;
+  			font-style: normal;
+		}
+
+		.title {
+  			font-family: 'Gypsy Curse';
+			  font-size: 100px;
+			  letter-spacing: 3mm;
+  			color: #fff;
+  			text-shadow: 2px 2px 4px #000;
+		}
+
+		h1 {
+			font-size: 48px;
+			margin-bottom: 20px;
+		}
+		p {
+			font-size: 24px;
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<header class="border top">
+</header>
+<body>
+	<div id="video-background">
+		<div id="video-foreground">
+			<iframe src="https://www.youtube.com/embed/7JyE47-Ykjo?autoplay=1&controls=0&mute=1" start="30" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	<div class="container">
+		<h1 class="title">lukSkul</h1>
+		<p>Unique NFT collection</p>
+	</div>
+</body>
+<footer class= "border bottom">
+</footer> 
+</html>
+
+
