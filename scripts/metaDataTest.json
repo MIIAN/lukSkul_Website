@@ -1,0 +1,34 @@
+{
+  "name": "lukSkul #1",
+  "description": "Leave your body behind.  5000 Unique lukSkul NFT.",
+  "image": "ipfs://QmcQXNkxKWahbrh6apmUadhXXJRRjxodeMJu4Xo1PKcKPA/1.png",
+  "dna": "9cb4dba5f60fdd05331316cd4588fa6aa0e982d4",
+  "edition": 1,
+  "date": 1648602029528,
+  "attributes": [
+    {
+      "trait_type": "Past",
+      "value": "forgottenRealms"
+    },
+    {
+      "trait_type": "Ancestry",
+      "value": "lostEmpiresHalf"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "lostEmpires"
+    },
+    {
+      "trait_type": "Personality",
+      "value": "wanderlust"
+    },
+    {
+      "trait_type": "Skull",
+      "value": "llug"
+    },
+    {
+      "trait_type": "Masked_by",
+      "value": "noOne"
+    }
+  ]
+}
